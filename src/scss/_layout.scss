@@ -1,0 +1,38 @@
+.wrapper {
+	height: 100%;
+	background-color: firebrick;
+}
+
+.container {
+	
+	@extend .row;
+	
+	background-color: #eee;
+
+	padding: 20px 0;
+
+	.main {
+		@extend .columns;
+		@include grid-column(12);
+
+		background-color: cadetblue;
+
+		@media #{$medium-up} {
+			@include grid-column(9);
+			background-color: aliceblue;
+		}
+	}
+
+	.sidebar {
+		@extend .columns;
+		@include grid-column(12);
+
+		background-color: brown;
+
+		@media #{$medium-up} {
+			@include grid-column(3);
+			background-color: burlywood;
+		}
+	}
+}
+

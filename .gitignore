@@ -1,0 +1,6 @@
+.DS_Store
+
+dist
+
+src/vendor
+node_modules

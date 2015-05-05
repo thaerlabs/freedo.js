@@ -1,0 +1,24 @@
+/******** Tanseek Font******/
+@font-face {
+    font-family: "MyTestMedium";
+    src: url('../fonts/TanseekModernProArabic1.eot');
+    src:local('☺'), 
+        url('../fonts/TanseekModernProArabic1.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TanseekModernProArabic2.woff') format('woff'),
+         url('../fonts/TanseekModernProArabic3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "MyTestBold";
+    src: url('../fonts/TanseekModernProArabic-Bold1.eot');
+src:local('☺'),
+        url('../fonts/TanseekModernProArabic-Bold1.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TanseekModernProArabic-Bold2.woff') format('woff'),
+         url('../fonts/TanseekModernProArabic-Bold3.ttf') format('truetype');
+    font-weight: bold;
+    font-style: bold;
+
+}

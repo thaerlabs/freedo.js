@@ -1,0 +1,17 @@
+{
+    "tpl": "index.ftl",
+    "data": {
+        "title": "mbc.net | Welcome",
+        "header" : "We see..",
+        "top_nav_items": [
+        	{
+        		"name" : "shahid",
+        		"link" : "http://shahid.net"
+        	},
+            {
+                "name" : "prosports",
+                "link" : "http://prosports.mbc.net"
+            }
+        ]
+    }
+}

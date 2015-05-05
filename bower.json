@@ -1,0 +1,31 @@
+{
+  "name": "freedo.js",
+  "version": "0.0.1",
+  "authors": [
+    "thaerlabs <abbas.t249@gmail.com>"
+  ],
+  "description": "Static site generator using freemarker, gulp and foundation",
+  "main": "gulpfile.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "freemarker",
+    "gulp",
+    "foundation",
+    "static",
+    "site"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.2"
+  }
+}
